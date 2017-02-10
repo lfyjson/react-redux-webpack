@@ -1,0 +1,78 @@
+%btn-base {
+	display:inline-block;
+	border:none;
+	height:0.88rem;
+	line-height:0.88rem;
+	font-size: 0.4rem;
+	border-radius:0.04rem;
+}
+
+%btn-primary {
+	@extend %btn-base;
+	color:#fff;
+	background-color: $color;
+	&:active {
+		background-color: darken($color, 5%);
+	}
+}
+
+.btn-primary-large {
+	@extend %btn-primary;
+	width:100%;
+	text-align:center;
+}
+
+.btn-primary-x {
+	@extend %btn-primary;
+	border-radius:0.44rem;
+	padding:0 1.333333rem;
+}
+
+.btn-primary {
+	@extend %btn-primary;
+	padding:0 0.4rem;
+}
+
+.btn-primary-small {
+	@extend %btn-primary;
+}
+
+%btn-default {
+	@extend %btn-base;
+	color: #999;
+	background-color: #e0e0e0;
+}
+
+.btn-default {
+	@extend %btn-default;
+	padding:0 0.4rem;
+}
+
+
+//other style
+%btn-style-logout {
+	width:3rem;
+	border-radius:0.4rem;
+	text-align: center;
+}
+
+.btn-primary-logout {
+	@extend %btn-primary;
+	@extend %btn-style-logout;
+}
+
+.btn-primary-logout-big {
+	@extend %btn-primary;
+	@extend %btn-style-logout;
+	line-height:1rem;
+	border-radius:.5rem;
+	width:4rem;
+	font-size: 0.4rem;
+}
+
+.btn-default-logout {
+	@extend %btn-default;
+	@extend %btn-style-logout;
+}
+
+

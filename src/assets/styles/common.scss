@@ -1,0 +1,33 @@
+.white-box {
+	background-color: #000;
+	margin:30px 15px;
+	padding:20px;
+	.btn {
+		margin:0 auto;
+		display:block;
+	}
+}
+
+.mask {
+	position:fixed;
+	left:0; 
+	top:0;
+	right:0;
+	bottom:0;
+	background-color: rgba(0,0,0,.5);
+}
+
+.dialog {
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%, -50%);
+	width:680px;
+	padding:20px;
+	box-sizing:border-box;
+	overflow-y:auto;
+	background-color: #000;
+	border:1PX solid $color;
+	border-radius:10px;
+	box-shadow:0 0 10px #555;
+}

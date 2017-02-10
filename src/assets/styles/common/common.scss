@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+html,body {
+	min-height:100%;
+}
+
+body {
+	font-family: 'Microsoft Yahei';
+}
+
+input, button {
+	font-family: 'Microsoft Yahei';
+}
+
+p {
+	line-height:1.6em;
+}
+
+a {
+	color:#333;
+	&:hover {
+		text-decoration:none;
+	}
+}
+
+a:active, button:active, input:active {
+	background-color: rgba(0,0,0,.1);
+}

@@ -1,0 +1,26 @@
+// 入口sccs
+@import "common/config";
+@import "common/tools";
+@import "common/reset";
+@import "common/common";
+@import "common/btn";
+
+@import "common";
+@import "header";
+
+html, html body {
+	background-color: #fff;
+}
+
+html body .test-video {
+	width:10rem;
+	height:5rem;
+}
+
+body {
+	color:#fff;
+}
+
+a {
+	color: #fff;
+}

@@ -1,0 +1,50 @@
+.top-bar {
+	height:1.066667rem;
+	line-height:1.066667rem;
+	background-color: orange;
+	color:#fff;
+	font-size: 0.32rem;
+	text-align: center;
+	position:relative;
+}
+
+.header-pic {
+	height: 268px;
+}
+
+.return-btn {
+	position:absolute;
+	left:0;
+	top:0;
+	width:1.066667rem;
+	height:1.066667rem;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	span {
+		display:block;
+		background:url('../images/return-btn.png') no-repeat;
+		background-size:cover;
+		width:0.306667rem;
+		height:0.533333rem;
+	}
+}
+
+.login-view {
+	position:absolute;
+	right:0;
+	top:0;
+	height:1.066667rem;
+	line-height:1.066667rem;
+	color:#fff;
+	.login {
+		color:#fff;
+		padding:0 0.266667rem;
+	}
+	.user-name {
+		padding:0 0.266667rem;
+		width:3rem;
+		text-align: right;
+		@extend %ellipsis;
+	}
+}
